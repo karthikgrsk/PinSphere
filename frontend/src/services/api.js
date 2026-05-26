@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api' || 'https://express-deployment-pinsphere-3.onrender.com/api';
 import axios from 'axios';
 
 const api = axios.create({
