@@ -13,7 +13,8 @@ connectDB();
 // CORS configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  process.env.FRONTEND_URL
+  "https://pin-sphere.vercel.app",
+  "https://pin-sphere-uw75.vercel.app"
 ].filter(Boolean);
 
 app.use(cors({
